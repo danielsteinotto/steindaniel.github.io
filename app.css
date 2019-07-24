@@ -366,18 +366,12 @@ a:hover {
 }
 
 .Content_Section {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 @media (min-width: 768px) {
   .Content_Section {
     margin-top: 100px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .Content_Section {
-    margin-top: 150px;
   }
 }
 
