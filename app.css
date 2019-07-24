@@ -208,6 +208,20 @@ h5 {
   line-height: 24px;
 }
 
+a {
+  background: #000;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 12px;
+}
+
+a:hover {
+  background: #ffcc00;
+  color: #000;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 30px;
@@ -332,6 +346,7 @@ h5 {
 
 .Content_Header {
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -344,6 +359,10 @@ h5 {
   .Content_Header {
     padding-right: 150px;
   }
+}
+
+.Content_HeaderLink {
+  margin-right: 10px;
 }
 
 .Content_Section {
@@ -363,7 +382,7 @@ h5 {
 }
 
 .Content_SectionHeader {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .Table {
